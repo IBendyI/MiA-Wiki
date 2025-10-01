@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MiA Wiki</title>
+        <link rel="icon" href="img/Logo.png"/>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+        <script src="js.js" defer></script>
+        <link rel="stylesheet" href="/css.css">
+    </head>
+    <body>
+        <div class="main-conatiner">
+            <div class="logo-container">
+                <div class="logo"></div>
+            </div>
+            <div class="basics-container">
+                <h2>Made in Abyss - мир Бездны</h2>
+                <p>Захватывающая история о путешествии юной исследовательницы Рико и робота Рега вглубь таинственной Бездны - гигантской пропасти, хранящей древние артефакты и смертельные опасности.</p>
+                
+                <h3>Ключевые элементы:</h3>
+                <ul>
+                    <li>7 смертоносных слоев Бездны</li>
+                    <li>Проклятие, карающее за подъем наверх</li>
+                    <li>Таинственные реликвии древней цивилизации</li>
+                    <li>Система рангов исследователей (Свистки)</li>
+                </ul>
+                
+                <p>Произведение уникально сочетает милую эстетику с глубоким психологическим напряжением, создавая незабываемую атмосферу загадочного и опасного приключения.</p>
+                </div>
+            <div class="button-cntainer">
+                <a href="indexPt.html">
+                    <div class="button" style="background-image: url(img/plotLogo.png);
+                                           animation: rightAppearing 1s ease-out,
+                                                      startRotate 2s infinite ease-in-out 1s,
+                                                       smoothRotate 5s infinite ease-in-out 3s;">
+                        Сюжет
+                    </div>
+                </a>
+                <a href="indexCh.html">
+                    <div class="button" style="background-image: url(img/charLogo.png);
+                           animation: rightAppearing 1s ease-out 0.2s,
+                                      startRotate 2s infinite ease-in-out 1.2s,
+                                       smoothRotate 5s infinite ease-in-out 3.2s;">
+                        Персонажи
+                    </div>
+                </a>
+                <a href="indexWh.html">
+                    <div class="button" style="background-image: url(img/whistleLogo.png);
+                                           animation: rightAppearing 1s ease-out 0.4s,
+                                                      startRotate 2s infinite ease-in-out 1.4s,
+                                                       smoothRotate 5s infinite ease-in-out 3.4s;">
+                    Свистки
+                    </div>
+                </a>
+                <a href="indexLy.html">
+                    <div class="button" style="background-image: url(img/layerLogo.png);
+                                               animation: rightAppearing 1s ease-out 0.6s,
+                                                          startRotate 2s infinite ease-in-out 1.6s,
+                                                           smoothRotate 5s infinite ease-in-out 3.6s;">
+                        Слои
+                    </div>
+                </a>
+                <a href="indexRl.html">
+                    <div class="button" style="background-image: url(img/relicsLogo.png);
+                                               animation: rightAppearing 1s ease-out 0.8s,
+                                                          startRotate 2s infinite ease-in-out 1.8s,
+                                                          smoothRotate 5s infinite ease-in-out 3.8s;">
+                        Реликвии
+                    </div>
+                </a>
+                <a href="indexCr.html">
+                    <div class="button" style="background-image: url(img/creaturesLogo.png);
+                                               animation: rightAppearing 1s ease-out 1s,
+                                                          startRotate 2s infinite ease-in-out 2s,
+                                                           smoothRotate 5s infinite ease-in-out 4s;">
+                        Бестиарий
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="whistleModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-header">
+                    <h2 id="modalTitle">Название свистка</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="whistle-image" id="modalImage"></div>
+                    <div class="whistle-info" id="modalInfo">
+                        <p>Информация о свистке появится здесь...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

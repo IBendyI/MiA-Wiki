@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MiA Wiki</title>
+        <link rel="icon" href="img/Logo.png"/>
+        <link rel="stylesheet" href="/css.css">
+        <script src="jsCr.js" defer></script>
+        <style>
+         * {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+         }
+        </style>
+    </style>
+</head>
+<body>
+    <div class="bestiary-body">
+        <div class="bestiary-header">
+            <h1 class="bestiary-title">🐲 Бестиарий Бездны</h1>
+            <p class="bestiary-subtitle">Энциклопедия существ, обитающих в глубинах</p>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="🔍 Поиск существ..." id="creatureSearch">
+        </div>
+
+        <div class="layer-filter" id="layerFilter">
+            <button class="layer-btn active" data-layer="all">Все слои</button>
+            <button class="layer-btn" data-layer="1">1-й слой</button>
+            <button class="layer-btn" data-layer="2">2-й слой</button>
+            <button class="layer-btn" data-layer="3">3-й слой</button>
+            <button class="layer-btn" data-layer="4">4-й слой</button>
+            <button class="layer-btn" data-layer="5">5-й слой</button>
+            <button class="layer-btn" data-layer="6">6-й слой</button>
+            <button class="layer-btn" data-layer="7">7-й слой</button>
+        </div>
+
+        <div class="creatures-grid" id="creaturesGrid">
+            <!-- Карточки существ будут добавляться через JavaScript -->
+        </div>
+    </div>
+</body>
+</html>
